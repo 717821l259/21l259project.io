@@ -1,0 +1,505 @@
+/* App.css */
+
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+  padding: 10px;
+  margin: 0;
+  background-color: #05424f;
+  overflow: hidden;
+  text-align: left; /* Align links to the right */
+}
+.logo{
+background-color:  #0b768e;
+padding: 1px;
+color: white;
+text-align: center;
+}
+li {
+  display: inline-block; /* Display links horizontally */
+}
+
+li a {
+  display: block;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  background-color: #111;
+}
+.container {
+  margin-top: 20%;
+}
+/* Add this to your CSS file */
+.home-footer {
+  background-color:black;
+  padding: 20px;
+  text-align: center;
+}
+.home-header{
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff; /* Set the text color to your preference */
+}
+.con{
+  p{
+  color: white;
+  }
+}
+.home-subtitle {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.auth-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Set the container height to 100% of the viewport height */
+  background-image: url('https://images.pexels.com/photos/6169668/pexels-photo-6169668.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+  background-size: cover; /* Cover the entire container with the background image */
+  background-position: center; /* Center the background image */
+  color: #fff; /* Set text color to white or another contrasting color */
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+/* Add more styles as needed */
+
+.auth-input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+.auth-button {
+  background-color: #05424f;
+  color: #fff;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.auth-toggle-button {
+  background: none;
+  color: #007bff;
+  border: none;
+  cursor: pointer;
+  text-decoration: underline;
+  font-size: small;
+}
+/* src/components/Home.css */
+
+body {
+  margin: 0;
+  font-family: 'Arial', sans-serif;
+}
+
+video {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.content-container {
+  position: relative;
+  z-index: 1;
+  color: #fff;
+  text-align: center;
+}
+
+h1 {
+  font-size: 3em;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.5em;
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.additional-content {
+  position: relative;
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 10px;
+  margin-top: -50px; /* Adjust this value based on your design */
+}
+
+/* Add more styles as needed */
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2.5em;
+  }
+
+  p {
+    font-size: 1.2em;
+  }
+}
+/* Your existing styles... */
+
+.get-started-button {
+  margin-top: 20px;
+}
+
+.get-started-button button {
+  background-color: #05424f;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 25px; /* Use border-radius to create a curved design */
+  cursor: pointer;
+  transition: background-color 0.3s; /* Add a smooth transition effect */
+}
+
+.get-started-button button:hover {
+  background-color:#05424f; /* Change background color on hover */
+}
+
+
+button {
+  background-color:#003f63;
+  color: #004268;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* src/components/Order.css */
+
+.order-container {
+  padding: 20px;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+label {
+  display: block;
+  font-size: 1.2em;
+  margin-bottom: 5px;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 10px;
+  font-size: 1em;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 1.2em;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+/* Home.css */
+.home-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+.video-background {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.content-container {
+  position: relative;
+  z-index: 1;
+  text-align: center;
+  padding: 20px;
+}
+
+.get-started-button {
+  margin-top: 20px;
+}
+@media (max-width: 768px) {
+  .get-started-button {
+    margin-top: 10px;
+  }
+}
+
+.home-footer {
+  background-color:black;
+  padding: 20px;
+  text-align: center;
+  width: 100%; /* Ensure the footer spans the full width */
+  position: absolute;
+  bottom: 0;
+}
+/* src/components/About.css */
+
+.about-container {
+  text-align: center;
+}
+
+.about-header {
+      height: 30vw;
+      width: 100vw;
+      background-repeat: no-repeat;
+      background-position: center center;
+      background-size: cover;
+}
+.text-colour{
+  h1{
+    color: #004268;
+  }
+}
+
+.about-content {
+  padding: 20px;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #333; /* Adjust the text color based on your design */
+}
+
+p {
+  font-size: 1.2em;
+  max-width: 600px;
+  margin: 0 auto;
+  /* Add more styles as needed */
+}
+
+.about-footer {
+  display: flex;
+  justify-content: space-around; /* Adjust as needed for spacing */
+  align-items: center;
+  padding: 20px;
+  background-color: black;
+}
+.about_p{
+  p{
+    margin: 0;
+  color: white;
+  }
+}
+p {
+  font-size: 1.2em;
+  /* Add more styles as needed */
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.pos-rel {
+  position: relative;
+}
+
+.heading-main {
+  font-size: 2.5em;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.icon-box-2 {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  transition: transform 0.3s ease-in-out;
+}
+
+.icon-box-2:hover {
+  transform: translateY(-5px);
+}
+
+.service-icon {
+  font-size: 2.5em;
+  color: #333;
+}
+
+.h4-md {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+  color: #333;
+}
+
+p {
+  font-size: 1.2em;
+  color: black;
+  line-height: 1.6;
+}
+.header-content {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: #fff; /* Set the text color to your preference */
+}
+
+.header-title {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+.con{
+  p{
+  color: white;
+  }
+}
+.header-subtitle {
+  font-size: 1.5rem;
+  margin: 0;
+}
+.let{
+  p{
+    color: white;
+  }
+}
+.service-header {
+  height: 30vw;
+  width: 100vw;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background-image: url('https://www.rathimeenaspeedparcel.com/assets/images/service-truck.png');
+}
+.content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 20px;
+}
+
+.category {
+  width: 45%; /* Adjust the width as needed to leave space for margins */
+  margin: 15px;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+section {
+  padding: 20px;
+}
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 0px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.footer-column {
+  width: 20%;
+  margin: inline end 10px;
+}
+
+.footer-column h3 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.footer-column ul {
+  list-style-type: none;
+  padding: 0;
+  background-color: #333;
+}
+
+.footer-column ul li {
+  margin-bottom: 5px;
+}
+.order-p{
+ text-align: center;
+}
+.location-column {
+  background-color: #f8f9fa; /* Light gray background */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Tonnes Column */
+.tonnes-column {
+  background-color: #e9ecef; /* Light blue background */
+  padding: 20px;
+  text-align: center;
+}
+
+/* Vehicle Column */
+.vehicle-column {
+  background-color: #f8d7da; /* Light red background */
+  padding: 20px;
+  text-align: center;
+}
+.gradient-custom-2 {
+  /* fallback for old browsers */
+  background: #fccb90;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right, #ee7724, #d8363a, #dd3675, #b44593);
+}
+
+@media (min-width: 768px) {
+  .gradient-form {
+    height: 100vh !important;
+  }
+}
+@media (min-width: 769px) {
+  .gradient-custom-2 {
+    border-top-right-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+  }
+}
